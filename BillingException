@@ -1,0 +1,14 @@
+   throws BillingException 
+  { 
+    if (SUBSCRIBE_RESPONSE == EXCEPTION) 
+      throw new NullPointerException("Developer Null Pointer"); 
+ 
+    if (SUBSCRIBE_RESPONSE == BILLING_EXCEPTION) 
+       throw new BillingException("Developer Billing Exception"); 
+  } 
+ 
+  /** 
+   * see BillingManager#unsubscribe(BillingInfo) 
+   */ 
+  public void unsubscribe(BillingInfo inBillingInfo) 
+      throws BillingException 
