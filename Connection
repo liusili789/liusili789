@@ -1,0 +1,5 @@
+ {
+        try {
+            Configuration config = DatabaseManager.createConfigurationFile( "Sales.ulj" );
+            Connection conn = DatabaseManager.connect( config );
+            PreparedStatement stmt = conn.prepareStatement(
