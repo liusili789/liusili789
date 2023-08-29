@@ -1,0 +1,5 @@
+extends ValidatioAdnapter 
+{ 
+  public ValidationContent execute( 
+    ValidationContent content, Properties properties) 
+  throws Exception 
