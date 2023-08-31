@@ -1,0 +1,11 @@
+System.out.println(); 
+    System.out.println(); 
+    System.out.print("For selector, you can specify null or "); 
+    System.out.print(MSCorrelationID=<event>"); 
+    System.out.println(); 
+    System.out.println(); 
+    System.out.println("\t Terminating Program ..."); 
+    System.exit(-1); 
+  } 
+ 
+  public static void main(String[] args) 
